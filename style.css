@@ -6,3 +6,135 @@
   font-weight:400 ;
   font-style: normal;
 }
+
+
+header{
+  margin: 20px 140px;
+  /* min-height: 425;
+  max-width: 357; */
+}
+/* nav style  */
+nav{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.nav-img{
+  display: flex;
+  gap: 11px;
+}
+.nav-img img{
+  height: 62px;
+  margin-top: 20px;
+}
+.nav-title{
+  font-size: 2rem;
+  font-weight: bold;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 32px;
+}
+nav ul{
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: 600;
+  
+}
+.btn-primary{
+  background-color: orange;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: white;
+  padding: 10px 60px;
+  border-radius: 12px;
+  border: none;
+}
+.nav-icon{
+  display: none;
+}
+
+
+/* banner style  */
+.banner{
+  display: flex;
+ 
+}
+.banner-title{
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 24px;
+}
+.banner-text{
+  font-size: 1.25rem;
+}
+.banner-content{
+  margin: 50px 0;
+  margin-right: 30px;
+  /* width: 640px; */
+}
+.enroll-btn{
+  background-color: black;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  padding: 10px 46px;
+  border: none;
+}
+.banner-img img{
+  width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+ .nav-title{
+  display: none;
+ }
+ .nav-icon{
+  display: block;
+ }
+  nav ul, .btn-primary{
+  display: none;
+ }
+ nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  border: 1px solid orange;
+ 
+  
+
+ }
+ .banner{
+  flex-direction: column-reverse;
+  
+ }
+ .banner-content{
+  margin-right: 20px;
+  margin: 0 auto;
+  text-align: center;
+ }
+ header{
+  margin: 0;
+ }
+ 
+ 
+
+
+  
+}
