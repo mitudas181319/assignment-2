@@ -10,8 +10,7 @@
 
 header{
   margin: 20px 140px;
-  /* min-height: 425;
-  max-width: 357; */
+  
 }
 /* nav style  */
 nav{
@@ -89,7 +88,70 @@ nav ul{
 
 }
 
+/* main part1 style  */
 
+main{
+  margin: 20px 140px;
+}
+.part1{
+  background-image: url(assets/bg.png);
+}
+.part1-title{
+  font-size: 2.75rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 60px auto;
+}
+.card-1{
+  border: 1px solid rgba(222, 245, 255, 1);
+  border-radius: 18px;
+  height: 476px;
+  width: 100%;
+  background: linear-gradient(#DEF5FF, #FFFFFF);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+.card-2{
+  border: 1px solid rgba(255, 244, 220, 1);
+  border-radius: 18px;
+  height: 476px;
+  width: 100%;
+  background: linear-gradient(#FFF4DC, #FFFFFF);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card-3{
+  border: 1px solid rgba(242, 232, 255, 1);
+  border-radius: 18px;
+  height: 476px;
+  width: 100%;
+  background: linear-gradient(#EEE1FF, #FFFFFF);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card-title{
+  font-size: 1.50rem;
+  font-weight: bold;
+}
+.card-text{
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(128, 128, 128, 1);
+  padding: 0 40px;
+}
+.part1-card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  
+}
 
 
 
@@ -113,8 +175,6 @@ nav ul{
  nav{
   display: flex;
   justify-content: space-between;
-  padding: 0;
-  margin: 0;
   border: 1px solid orange;
  
   
@@ -132,9 +192,6 @@ nav ul{
  header{
   margin: 0;
  }
- 
- 
-
 
   
 }
