@@ -21,6 +21,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   
 }
 .nav-img{
@@ -354,6 +355,11 @@ footer{
   color: white;
   margin-top: 0;
 }
+.marquee{
+  font-size: 2rem;
+  font-weight: bold;
+  color: rebeccapurple;
+}
 
 
 
@@ -383,6 +389,7 @@ footer{
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid orange;
+  
  
  }
 
@@ -463,6 +470,9 @@ header{
 footer{
   flex-direction: column;
   padding: 15px 0;
+}
+.arrow-btn2{
+  display: none;
 }
 
 
