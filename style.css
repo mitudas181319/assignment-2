@@ -93,10 +93,11 @@ nav ul{
 }
 
 /* main part1 style  */
+
 main{
   
   background-image: linear-gradient(to top, rgba(254, 161, 1, 0.185),rgba(255, 255, 255, 0.233)), url('assets/bg.png');
-  
+ 
 }
 
 .main-content{
@@ -321,9 +322,12 @@ main{
 
 footer{
   background-color:rgba(1, 172, 253, 1) ;
-  /* height: 519px;
-  width: 1440px; */
+  display: flex;
+  justify-content: space-around;
+   padding: 123px  140px ;
+  
 }
+
 .footer-img img{
   width: 83px;
   height: 81px;
@@ -336,6 +340,19 @@ footer{
 .footer-img{
   display: flex;
   align-items: center;
+}
+.footer-text{
+  color: white;
+  font-size: 1rem;
+  width: 400px;
+ 
+}
+.footer-column-2{
+  color: white;
+}
+.footer-column-3{
+  color: white;
+  margin-top: 0;
 }
 
 
@@ -442,6 +459,10 @@ header{
   padding: 0 22px;
   margin: 0;
   font-size: 0.50rem;
+}
+footer{
+  flex-direction: column;
+  padding: 15px 0;
 }
 
 
